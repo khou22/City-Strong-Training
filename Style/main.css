@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+.welcome {
+  margin-top: 70px;
+  height: 80vh;
+  background-color: white;
+  background-image: url("../Media/Welcome_Image.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.welcome-content {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  left: 10%;
+  width: 30%;
+  text-align: center;
+}
+
+.welcome-header {
+
+}
+
+.welcome-subheader {
+
+}
+
+.signup-button {
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+.section {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.statistics {
+  background-color: white;
+}
+
+.stat-table {
+  width: 100%;
+}
+
+.stat-td {
+  height: 350px;
+  padding: 16px;
+}
+
+.stat-card {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.stat-image {
+  height: 40%;
+  width: 100%;
+}
+
+.stat-icon {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.stat-text {
+  height: 60%;
+  padding: 8%;
+  padding-top: 0px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.about {
+  height: 50vh;
+  background-color: rgb(240, 241, 246)
+}
+
+.about-picture-div {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.about-img {
+  position: relative;
+  margin: auto;
+  width: 40vh;
+  height: 40vh;
+  top: 5vh;
+  background-color: black;
+  background-image: url(../Media/Square_Placeholder.jpg);
+  background-size: contain;
+}
+
+.about-text {
+  width: 60%;
+  float: right;
+}
+
+.testimonials {
+  height: 50vh;
+  background-color: rgb(218, 219, 221);
+}
+
+.signup {
+  height: 50vh;
+  background-color: rgb(240, 241, 246)
+}

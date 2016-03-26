@@ -1,0 +1,19 @@
+@font-face {
+   font-family: ProximaNova;
+   src: url(../Assets/Fonts/Proxima Nova/ProximaNova-Light.otf);
+}
+
+@font-face {
+   font-family: ProximaNova_Italics;
+   src: url(../Assets/Fonts/Proxima Nova/ProximaNova-LightItalic.otf);
+   font-weight: italic;
+}
+
+@@font-face {
+  font-family: Hack;
+  src: url(../Assets/Fonts/Hack/Hack-Regular.ttf);
+}
+
+* {
+  font-family: Hack;
+}
