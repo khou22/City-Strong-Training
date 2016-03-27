@@ -5,6 +5,7 @@ header {
   height: 70px;
   top: 0px;
   z-index: 1; /*Always at top*/
+  border-bottom: 1px solid grey;
 }
 
 .site-title {
@@ -16,18 +17,20 @@ header {
 .main-menu {
   /*float: right;*/
   display: inline-block;
-  height: 70px;
-  font-style: normal;
 }
 
-a:link {
+a.main-menu:link {
   /*Remove underline from links*/
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+a.nav-link:hover {
   color: grey;
+}
+
+a {
+  cursor: pointer;
 }
 
 .nav-link {

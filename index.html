@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="Style/fonts.css">
     <link rel="stylesheet" type="text/css" href="Style/main.css">
     <link rel="stylesheet" type="text/css" href="Style/header.css">
+    <link rel="stylesheet" type="text/css" href="Style/footer.css">
+    <link rel="stylesheet" type="text/css" href="Style/animations.css">
     <title>City Strong Training</title>
 
     <!-- Jquery -->
@@ -15,10 +17,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="site-title">
-          <h1>City Strong Training</h1>
+          <a onclick="scrollTo('#welcome')"><h1>City Strong Training</h1></a>
         </div>
 
         <div class="main-menu">
+          <a onclick="scrollTo('#statistics')" class="nav-link">Benefits</a>
           <a onclick="scrollTo('#about')" class="nav-link">About Me</a>
           <a onclick="scrollTo('#testimonials')" class="nav-link">Testimonials</a>
           <a onclick="scrollTo('#signup')" class="nav-link">Sign Up</a>
@@ -28,20 +31,21 @@
   </header>
   <body>
     <script type="text/javascript" src="Scripts/Scrolling.js"></script>
+    <script type="text/javascript" src="Scripts/Main.js"></script>
     <div id="welcome" class="welcome">
       <div class="welcome-content">
         <h1 class="welcome-header">City Strong Training</h1>
         <h3 class="welcome-subheader">Pilates, Weights, and Cardio</h3>
-        <button class="signup-button">Sign Up</button>
+        <button class="signup-button" onclick="signupButton()">Sign Up</button>
       </div>
     </div>
-    <div class="statistics section">
+    <div id="statistics" class="statistics section">
       <table class="stat-table">
         <tr>
           <td class="stat-td">
             <div class="stat-card">
               <div class="stat-image">
-                <img class="stat-icon" src="Media/Weights_Icon.png">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
               </div>
               <div class="stat-text">
                 Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
@@ -51,7 +55,7 @@
           <td class="stat-td">
             <div class="stat-card">
               <div class="stat-image">
-                <img class="stat-icon" src="Media/Weights_Icon.png">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
               </div>
               <div class="stat-text">
                 Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
@@ -61,7 +65,39 @@
           <td class="stat-td">
             <div class="stat-card">
               <div class="stat-image">
-                <img class="stat-icon" src="Media/Weights_Icon.png">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
+              </div>
+              <div class="stat-text">
+                Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="stat-td">
+            <div class="stat-card">
+              <div class="stat-image">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
+              </div>
+              <div class="stat-text">
+                Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
+              </div>
+            </div>
+          </td>
+          <td class="stat-td">
+            <div class="stat-card">
+              <div class="stat-image">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
+              </div>
+              <div class="stat-text">
+                Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
+              </div>
+            </div>
+          </td>
+          <td class="stat-td">
+            <div class="stat-card">
+              <div class="stat-image">
+                <img class="stat-icon wiggle-animation" src="Media/Weights_Icon.png">
               </div>
               <div class="stat-text">
                 Functional strength training with free weights tones your muscles, makes you strong, and helps prevent injuries.
@@ -77,7 +113,13 @@
       </div>
       <div class="about-text">
         <h1>About Me</h1>
-        <p>David Peletz is a...</p>
+        <p>David Peletz is a senior at Lick-Wilmerding high school. Lorem ipsum dolor sit amet, cu soluta voluptatum assueverit sed, te aeque sonet vim. In aeque regione reprehendunt eam, qui ut eleifend platonem.
+          Vidisse salutandi sit ad. Sed ullum fabulas expetendis id. Id sonet scribentur has, pro diceret detracto ei. Prima putant ut cum, porro velit intellegam ne mei. Mel ea quaestio tractatos scripserit.
+          Nam tempor definiebas disputationi ei. Ei elitr iracundia sit, utinam intellegat has eu. Mei inermis facilisis complectitur ea. Cu noluisse copiosae salutandi eum, adhuc causae ut has.
+          Numquam oporteat menandri cu his, has an principes neglegentur, nam aeterno impedit efficiendi an. Saperet docendi vim eu, meis harum perpetua eos ea. Mazim pericula
+          eu nam, postulant repudiandae ex eos. Eum ad porro dicunt, et nam magna delicata.
+          Ad omnis tractatos mediocrem nec, te corpora moderatius has, dolore omnium nostrud no sed. Ad putent luptatum mel. Delicata omittantur per at, has id postea expetenda ocurreret.
+          Tempor bonorum no vis, feugiat posidonium concludaturque ut vim.</p>
       </div>
     </div>
     <div id="testimonials" class="testimonials section">
@@ -89,4 +131,7 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     </div>
   </body>
+  <footer>
+    © City Strong Training
+  </footer>
 </html>
